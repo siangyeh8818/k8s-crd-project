@@ -1,0 +1,15 @@
+domain: siang-test.com
+layout:
+- go.kubebuilder.io/v3
+projectName: k8s-crd-project
+repo: siang-test.com
+resources:
+- api:
+    crdVersion: v1
+  controller: true
+  domain: siang-test.com
+  group: siang-test
+  kind: OutLoadBalancer
+  path: siang-test.com/api/v1
+  version: v1
+version: "3"

@@ -1,0 +1,6 @@
+apiVersion: siang-test.siang-test.com/v1
+kind: OutLoadBalancer
+metadata:
+  name: outloadbalancer-sample
+spec:
+  # TODO(user): Add fields here
